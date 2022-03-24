@@ -1,0 +1,22 @@
+.butn{
+    background: #e6a531;
+background: linear-gradient(90deg,#e6a531 0%, #fdf455 80%);
+background: -webkit-linear-gradient(90deg,#e6a531 0%, #fdf455 80%);
+background: -moz-linear-gradient(90deg,#e6a531 0%, #fdf455 80%);
+}
+.coin{
+    background-image: url('../bitcoin.png');
+    /* background-size: cover; */
+    /* background-size: 400px auto; */
+    background-repeat: no-repeat;
+}
+.spiral{
+    background-image: url('../spirals.png');
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    filter: opacity(0.1);
+    
+}

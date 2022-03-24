@@ -1,0 +1,15 @@
+.bottomnav{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgb(27,105,180);
+background: linear-gradient(90deg, rgba(27,105,180,1) 0%, rgba(185,14,106,1) 100%);
+    box-shadow: -8px -4px 9px 0px rgba(223,221,222,1);
+-webkit-box-shadow: -8px -4px 9px 0px rgba(223,221,222,1);
+-moz-box-shadow: -8px -4px 9px 0px rgba(223,221,222,1);
+}
+.icon{
+    color: white;
+}
+h4{
+    color: white;
+}
