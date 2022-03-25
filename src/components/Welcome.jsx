@@ -45,8 +45,8 @@ const Welcome = () => {
           <h1 className='text-[20px] text-[white] sm:text-[30px]'>Explore the world <br></br>of Crypto</h1>
           <h2 className='text-[white] sm:pt-[8px]'>Buy and sell cryptocurrencies easily on cypher</h2>
         </div>
-        {!currentAccount && (<div className='flex justify-center w-full'>
-            <button type='button' onClick={connectWallet} className='butn font-semibold mb-2 text-white rounded-full p-2 sm:w-[70%]'>Connect Wallet</button>
+        {!currentAccount && (<div className='flex justify-center w-full z-50'>
+            <button type='button' onClick={connectWallet} className='butn cursor-pointer font-semibold mb-2 text-white rounded-full p-2 sm:w-[70%]'>Connect Wallet</button>
         </div>)}
       </div>
         {/* ethereum transaction details */}
